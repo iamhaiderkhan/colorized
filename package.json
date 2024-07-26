@@ -1,11 +1,11 @@
 {
-  "name": "project_name",
-  "description": "project_description",
+  "name": "colorized",
+  "description": "Elevate Your Design with Harmonious Colors",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "author_name",
-    "email": "author_email"
+    "name": "iamhaiderkhan",
+    "email": "haiderkhan.live@gmail.com"
   },
   "scripts": {
     "dev": "next dev",

@@ -1,5 +1,5 @@
-# project_name
-project_description
+# colorized
+Elevate Your Design with Harmonious Colors
 
 ## nextjs-typescript-mui-redux-toolkit-template
 Setup Nextjs, MUI, Redux-Toolkit, ESLint, Prettier, and Husky with Typescript
