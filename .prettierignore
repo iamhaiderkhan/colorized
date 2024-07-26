@@ -1,0 +1,7 @@
+.prettierignore
+public/
+.gitignore
+.husky/
+dev_env
+prod_env
+stage_env

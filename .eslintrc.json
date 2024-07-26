@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next",
+    "eslint-config-next",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
+    "max-len": ["error", { "code": 160 }],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "jsx-a11y/anchor-has-content": 0,
+    "jsx-a11y/anchor-is-valid": "warn",
+    "no-param-reassign": ["error", { "props": false }],
+    "react/require-default-props": "off",
+    "import/extensions": "off",
+    "no-absolute-path": "off",
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "never",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+  }],
+  "import/prefer-default-export": "off",
+  "react/no-unused-prop-types": "off"
+  },
+  "ignorePatterns": [
+    "node_modules/*",
+    ".next/*",
+    ".out/*",
+    "!.prettierrc.js",
+    "!.eslintrc.js",
+    "!.babelrc.js",
+    "!.eslintrc.json",
+    "!.prettierrc.json",
+    "!.babelrc.json",
+    "!.stylelintrc.json"
+  ]
+}
